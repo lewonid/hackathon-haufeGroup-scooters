@@ -1,0 +1,72 @@
+.SignIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 64px);
+  background-color: rgb(0, 23, 47);
+}
+
+.SignInWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.SignInWrapper h1 {
+  font-family: "Roboto-Bold";
+  font-size: 2rem;
+  /* margin-bottom: 2rem; */
+}
+
+.SignInWrapper p {
+  font-family: "Roboto-Regular";
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.SignInWrapper input {
+  padding: 0px 10px;
+  height: 32px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+
+.SignInWrapper button {
+  height: 32px;
+  /* width: 100%; */
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a76d2;
+  color: #fff;
+  font-family: "Roboto-Bold";
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.SignInWrapper p:last-of-type {
+  margin-top: 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.SignInWrapper span {
+  color: #1a76d2;
+  cursor: pointer;
+}
+.SignInWrapper a {
+  text-decoration: none;
+  font-family: "Roboto-Regular";
+}
+.LoggedIn {
+  color: #fff;
+  font-family: "Roboto-Light";
+}

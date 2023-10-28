@@ -1,0 +1,11 @@
+.LoginRegisterContainer {
+  display: flex;
+}
+
+.LoginRegisterContainer p {
+  margin: 0 1rem;
+}
+.LoginRegisterContainer p:hover {
+  color: #1a76d2;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.Navbar {
+  display: flex;
+  height: 64px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 100;
+}
+.Navbar a {
+  text-decoration: none;
+  color: #0a335c;
+}
+.Logo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.Logo h1 {
+  font-family: "Roboto-Bold";
+  font-size: 2rem;
+}
+.Logo p {
+  font-family: "Roboto-Regular";
+  letter-spacing: 2px;
+}
+.NavItems {
+  display: flex;
+  font-family: "Roboto-Light";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 100px;
+}
+
+.NavItem {
+  margin-right: 3rem;
+  cursor: pointer;
+}
+.NavItem:hover {
+  color: #1a76d2;
+}
+
+.UserWrapper {
+  margin-left: auto;
+  font-family: "Roboto-Light";
+}
+
+@media (max-width: 1200px) {
+  .NavItems {
+    display: none;
+  }
+}

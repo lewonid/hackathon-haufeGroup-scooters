@@ -1,0 +1,45 @@
+.Home {
+  height: calc(100vh - 64px);
+  background-image: url("../../assets/img/bg-timisoara.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.HomeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+
+.HomeWrapper h1 {
+  font-family: "Roboto-Bold";
+  font-size: 2.6rem;
+}
+
+#ButtonRent {
+  height: 48px;
+  margin: 2rem;
+}
+
+#ButtonRentScooter {
+  height: 48px;
+  margin: 2rem;
+  color: white;
+  border: #fff solid 1px;
+}
+
+@media (max-width: 490px) {
+  .HomeWrapper h1 {
+    font-size: 2rem;
+  }
+  .ButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
